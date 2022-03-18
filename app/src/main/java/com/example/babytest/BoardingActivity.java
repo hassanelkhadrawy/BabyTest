@@ -60,7 +60,7 @@ public class BoardingActivity extends AppCompatActivity {
         for (int i = 0; i < indicators.length; i++) {
             indicators[i] = new ImageView(getApplicationContext());
             indicators[i].setImageDrawable(ContextCompat.getDrawable(
-                    getApplicationContext(), R.drawable.ic_launcher_background
+                    getApplicationContext(), R.drawable.indicator_inactive
             ));
             indicators[i].setLayoutParams(layoutParams);
             layoutOnboardingIndicator.addView(indicators[i]);
